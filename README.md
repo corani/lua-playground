@@ -6,8 +6,11 @@ NOTE: This is just a toy project to play around with `gopher-lua`.
 
 ## Usage
 ```console
-go run .
+docker compose up
 ```
+
+NOTE: If you need to use a `GOPROXY` to fetch the dependencies, create a `.env` file containing
+`GOPROXY=<address of proxy>`.
 
 ## Demo
 ![image](https://user-images.githubusercontent.com/480775/231712301-6f873a50-10bb-40fc-bfda-53ac39593fd5.png)

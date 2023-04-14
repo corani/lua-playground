@@ -1,0 +1,11 @@
+--- 
+version: "3.2"
+
+services:
+  lua-playground:
+    build:
+      context: .
+      args:
+        - GOPROXY=$GOPROXY
+    ports:
+      - "6969:6969"
